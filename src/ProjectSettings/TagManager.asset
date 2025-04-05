@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Cart
   - NPC
+  - UIInformation
   layers:
   - Default
   - TransparentFX

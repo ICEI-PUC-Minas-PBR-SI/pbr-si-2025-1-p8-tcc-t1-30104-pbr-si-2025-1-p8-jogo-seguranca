@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J) && _animator.GetBool("Grounded") && canAttackInScene)
         {
             _animator.SetTrigger(_animIDAttack);
-            Debug.Log("Botão esquerdo do mouse pressionado!");
             isAttacking = true;
         }
     }

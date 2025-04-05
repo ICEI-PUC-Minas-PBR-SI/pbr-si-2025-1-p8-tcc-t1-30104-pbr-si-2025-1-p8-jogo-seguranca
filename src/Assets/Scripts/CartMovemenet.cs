@@ -14,6 +14,9 @@ public class CartMovement : MonoBehaviour
 
     void Start()
     {
+
+
+
         if (!Cursor.visible)
         {
             Cursor.lockState = CursorLockMode.None;

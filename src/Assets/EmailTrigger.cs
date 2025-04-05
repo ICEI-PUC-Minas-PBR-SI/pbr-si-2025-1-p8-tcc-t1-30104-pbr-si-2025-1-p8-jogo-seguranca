@@ -16,7 +16,8 @@ public class EmailTrigger : MonoBehaviour
 
     [SerializeField]
     private GameObject emailIndicator;
-
+    [SerializeField]
+    private GameObject pressToTalkIndicator;
 
     private EmailManager manager;
 
@@ -25,6 +26,7 @@ public class EmailTrigger : MonoBehaviour
     private bool isEmailReady = false;
     private bool playerHasOpenedEmail = true;
     private Animator emailAnimator;
+    private bool playerInside = false;
 
     private void Start()
     {
@@ -37,17 +39,34 @@ public class EmailTrigger : MonoBehaviour
 
     private void Update()
     {
+        bool playerDetected = false;
 
         if (isEmailReady)
         {
 
-            emailIndicator.SetActive(true);
+            
             emailAnimator.SetBool("Calling",true);
+            emailIndicator.SetActive(true);
             if (IsPlayerNearby())
             {
-             HandlePlayerInteraction();
+                playerDetected = true;
+                if (!playerInside)
+                {
+                    playerInside = true;
+                    pressToTalkIndicator.SetActive(true);
+                }
+                HandlePlayerInteraction();
             }
 
+
+
+
+        }
+
+        if (!playerDetected && playerInside)
+        {
+            pressToTalkIndicator.SetActive(false);
+            playerInside = false;
 
 
         }

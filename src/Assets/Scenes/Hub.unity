@@ -7775,7 +7775,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -31924,29 +31924,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "Ah, ent\xE3o voc\xEA \xE9 o novo recruta? \xD3timo, porque n\xE3o temos tempo
-      para discursos longos! Hoje voc\xEA enfrentar\xE1 um dos ataques mais trai\xE7oeiros
-      do ciberespa\xE7o: o Man-in-the-Middle. Preparado? Porque os inimigos j\xE1
-      est\xE3o \xE0 espreita!"
-    - "No mundo real, quando voc\xEA manda uma mensagem, espera que ela chegue direto
-      ao destinat\xE1rio, certo? Mas os hackers... ah, esses malandros! No ataque
-      Man-in-the-Middle, um invasor se infiltra na comunica\xE7\xE3o sem ningu\xE9m
-      perceber. Ele pode roubar ou at\xE9 modificar as informa\xE7\xF5es antes que
-      cheguem ao destino! Isso acontece muito em redes Wi-Fi p\xFAblicas, conex\xF5es
-      inseguras e sistemas comprometidos."
-    - "Mas n\xE3o tema! No seu treinamento, os Interceptadores Sombrios \u2013 representando
-      os cibercriminosos \u2013 tentar\xE3o atacar o Carro-Pacote, que carrega dados
-      importantes. Seu trabalho? Defender esse ve\xEDculo com sua L\xE2mina de Criptografia
-      apertando a tecla J! Cada golpe bem-sucedido fortalece as defesas do carro
-      e mant\xE9m a comunica\xE7\xE3o segura."
-    - "Mas fique atento! Os ataques v\xE3o piorar. Alguns Interceptadores tentar\xE3o
-      modificar as informa\xE7\xF5es, inserindo dados falsos, enquanto outros v\xE3o
-      tentar destruir tudo. Voc\xEA precisa ser r\xE1pido, estrat\xE9gico e certeiro
-      para garantir que a comunica\xE7\xE3o permane\xE7a intacta!"
-    - "No mundo real, a melhor forma de evitar esse tipo de ataque \xE9 usar conex\xF5es
-      seguras. Redes Wi-Fi abertas? Nem pensar! Sempre prefira conex\xF5es protegidas,
-      use HTTPS e VPNs, e desconfie de qualquer conex\xE3o desconhecida. Seu treinamento
-      aqui ajudar\xE1 voc\xEA a criar esse instinto defensivo!"
+    - "Ah, ent\xE3o voc\xEA \xE9 o novo recruta! Bem-vindo ao campo de batalha digital.
+      N\xE3o temos tempo para apresenta\xE7\xF5es formais, porque voc\xEA est\xE1
+      prestes a enfrentar um dos ataques mais trai\xE7oeiros do ciberespa\xE7o: o
+      Man-in-the-Middle! Vamos ver se voc\xEA tem o que \xE9 necess\xE1rio para proteger
+      a comunica\xE7\xE3o!"
+    - "No mundo real, quando voc\xEA envia uma mensagem, espera que ela chegue ao
+      destino, certo? Mas, e se algu\xE9m no meio do caminho pegasse essa mensagem,
+      alterasse ou at\xE9 roubasse os dados? Isso \xE9 o que chamamos de Man-in-the-Middle!
+      Os invasores interceptam a comunica\xE7\xE3o sem que ningu\xE9m perceba e podem
+      mexer com as informa\xE7\xF5es."
+    - "Agora, voc\xEA est\xE1 aqui para evitar que isso aconte\xE7a em nossa miss\xE3o!
+      O seu objetivo \xE9 proteger o Carro-Pacote, que carrega informa\xE7\xF5es
+      valiosas. O \xFAnico inimigo que voc\xEA enfrentar\xE1 \xE9 o Interceptador
+      Fatal. Ele vai correr at\xE9 o carro para tentar destru\xED-lo, e voc\xEA precisa
+      impedir que isso aconte\xE7a!"
+    - "Para lutar contra ele, voc\xEA tem a L\xE2mina de Criptografia! Aperte J para
+      atacar o inimigo e elimin\xE1-lo antes que ele consiga destruir o Carro-Pacote.
+      A cada inimigo derrotado, a sua l\xE2mina fortalece as defesas do carro. E
+      se voc\xEA eliminar 4 inimigos, aperte a tecla R para ativar o firewall, tornando
+      o Carro-Pacote invulner\xE1vel por um tempo!"
+    - "E lembre-se, no mundo real, sempre use conex\xF5es seguras para se proteger
+      de ataques Man-in-the-Middle. Evite redes Wi-Fi p\xFAblicas e nunca deixe suas
+      informa\xE7\xF5es desprotegidas. Protocolos como HTTPS e VPNs s\xE3o suas melhores
+      defesas!"
     - "Se estiver pronto para a batalha, aperte o bot\xE3o ao lado e entre na a\xE7\xE3o!
       Proteja o Carro-Pacote e n\xE3o deixe os Interceptadores Sombrios vencerem.
       Mostre que voc\xEA tem o que \xE9 preciso para defender o ciberespa\xE7o!"
@@ -31990,7 +31991,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -58929,7 +58930,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

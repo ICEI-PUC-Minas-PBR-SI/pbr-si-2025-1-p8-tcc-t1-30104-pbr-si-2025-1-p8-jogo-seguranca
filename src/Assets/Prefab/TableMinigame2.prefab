@@ -2040,7 +2040,10 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Armature'\n\tFrom animation clip 'Sitting And
+    Pointing'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -2058,8 +2061,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRadius: 2
-  emailCooldown: 1.5
+  minGenerateNewEmail: 20
+  maxGenerateNewEmail: 40
   emailIndicator: {fileID: 4209461375431853367}
+  pressToTalkIndicator: {fileID: 0}
 --- !u!1 &2926863278783476251
 GameObject:
   m_ObjectHideFlags: 0

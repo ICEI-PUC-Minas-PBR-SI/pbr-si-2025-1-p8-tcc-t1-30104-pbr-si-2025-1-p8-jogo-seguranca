@@ -5,9 +5,13 @@ public class DealDamage : MonoBehaviour
 
     [SerializeField] private float damage;
 
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         
     }
 
@@ -23,8 +27,15 @@ public class DealDamage : MonoBehaviour
         {
             HealthSystem enemy = other.GetComponent<HealthSystem>();
             EnemyController enemyController = other.GetComponent<EnemyController>();
-            enemy.TakeDamage(damage);
-            StartCoroutine(enemyController.BlinkEffect());
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
+            if (enemyController != null)
+            {
+                StartCoroutine(enemyController.BlinkEffect());
+            }
+           
         }
     }
 
