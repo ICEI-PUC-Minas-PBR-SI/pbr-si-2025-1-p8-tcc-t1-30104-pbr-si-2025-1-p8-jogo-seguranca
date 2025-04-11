@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private GameObject weapon;
     [SerializeField] private float blinkDuration = 0.1f;
+    [SerializeField] private Material hitMatterial;
 
     private bool isAttacking = false;
     private Animator _animator;
@@ -15,7 +16,7 @@ public class EnemyController : MonoBehaviour
 
     private NavMeshAgent agent;
     private bool canAttack = true;
-    private Color defaultColor;
+    private Material defaultMaterial;
     private SkinnedMeshRenderer skinnedMeshRenderer;
 
     void Start()
@@ -23,7 +24,7 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
         skinnedMeshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
-        defaultColor = skinnedMeshRenderer.material.color;
+        defaultMaterial = skinnedMeshRenderer.material;
 
         GameObject cart = GameObject.FindGameObjectWithTag("Cart");
         if (cart != null)
@@ -105,9 +106,9 @@ public class EnemyController : MonoBehaviour
     {
         if (skinnedMeshRenderer != null && skinnedMeshRenderer.material)
         {
-            skinnedMeshRenderer.material.color = Color.white * 4f;
+            skinnedMeshRenderer.material  = hitMatterial;
             yield return new WaitForSeconds(blinkDuration);
-            skinnedMeshRenderer.material.color = defaultColor;
+            skinnedMeshRenderer.material = defaultMaterial;
         }
     }
 

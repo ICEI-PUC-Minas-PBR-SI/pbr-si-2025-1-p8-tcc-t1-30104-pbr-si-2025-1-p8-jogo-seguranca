@@ -625,7 +625,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: bea93a38b71b64b598109b3a3b1a0048, type: 3}
   m_Resource: {fileID: 8300000, guid: bea93a38b71b64b598109b3a3b1a0048, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1501,10 +1501,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4402202980648533842}
-  - {fileID: 664535968}
-  - {fileID: 1905919338}
   - {fileID: 5022718191832811158}
   - {fileID: 1391180514}
+  - {fileID: 664535968}
+  - {fileID: 1905919338}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2894,7 +2894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46feaa42f6aaf0047a983e32c037f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneRestart: 
+  sceneRestart: MinigameMITM
 --- !u!114 &664535970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8277,7 +8277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed085a0613157e4e9ded7b459d4480e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneRestart: 
+  sceneRestart: MinigameMITM
 --- !u!114 &1905919340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11008,7 +11008,7 @@ MonoBehaviour:
   - {x: 12.75, y: 0, z: 21.84}
   - {x: 19, y: 0, z: 21.84}
   gameWinScreenController: {fileID: 1905919339}
-  duration: 180
+  duration: 90
 --- !u!95 &4947586751590986761
 Animator:
   serializedVersion: 7

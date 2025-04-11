@@ -19,6 +19,8 @@ public class GameOverScreenController : MonoBehaviour
 
     public void EnableGameOverScreen()
     {
+        AudioListener.volume = 0f;
+        Time.timeScale = 0f;
         gameObject.SetActive(true);
     }
 
@@ -28,11 +30,15 @@ public class GameOverScreenController : MonoBehaviour
 
     public void OnRestart()
     {
+        AudioListener.volume = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneRestart);
     }
 
     public void OnBackHub()
     {
+        AudioListener.volume = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Hub");
     }
 }

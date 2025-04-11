@@ -7737,7 +7737,7 @@ MonoBehaviour:
       come\xE7ar sua primeira miss\xE3o!"
     name: Seguro
   detectionRadius: 4
-  dialogueCooldown: 0.5
+  dialogueCooldown: 1
   audioClipsToTalk:
   - {fileID: 8300000, guid: d8c2c9515b91b4b4785f35c07e6f2ed8, type: 3}
   - {fileID: 8300000, guid: f45c87f50355e3a4e933dfae013f360b, type: 3}
@@ -31953,7 +31953,7 @@ MonoBehaviour:
       Mostre que voc\xEA tem o que \xE9 preciso para defender o ciberespa\xE7o!"
     name: Cripto
   detectionRadius: 3
-  dialogueCooldown: 0.5
+  dialogueCooldown: 1
   audioClipsToTalk:
   - {fileID: 8300000, guid: 889e48377d42c364b91f1d1c1962bc4f, type: 3}
   - {fileID: 8300000, guid: f9144b9a3e0e56c42bf371ed3354b33f, type: 3}
@@ -58891,9 +58891,10 @@ MonoBehaviour:
       escondem um ataque de phishing. Se um de nossos agentes receber um e-mail suspeito,
       ele chamar\xE1 voc\xEA. V\xE1 at\xE9 ele e pressione F para analisar a mensagem."
     - " Com o e-mail aberto, preste aten\xE7\xE3o nos detalhes:\n\n- O remetente
-      \xE9 confi\xE1vel?\r\n- O e-mail tem erros de ortografia ou parece apressado
-      demais?\r\n- H\xE1 links suspeitos pedindo que voc\xEA clique e insira dados
-      sigilosos?\r\n- O tom da mensagem tenta assustar voc\xEA para agir r\xE1pido?\n"
+      \xE9 confi\xE1vel? ( O remetente deve terminar com @guarda_digital.com) \r\n-
+      O e-mail tem erros de ortografia ou parece apressado demais?\r\n- H\xE1 links
+      suspeitos pedindo que voc\xEA clique e insira dados sigilosos?\r\n- O tom da
+      mensagem tenta assustar voc\xEA para agir r\xE1pido?\n"
     - "Se o e-mail for leg\xEDtimo, pressione Q para confirm\xE1-lo como seguro.
       Mas se identificar sinais de phishing, aperte R para marcar o e-mail como uma
       amea\xE7a!"
@@ -58909,7 +58910,7 @@ MonoBehaviour:
       aqui no bot\xE3o ao lado para iniciar a aventura ! Boa sorte! "
     name: Phisha
   detectionRadius: 3
-  dialogueCooldown: 0.5
+  dialogueCooldown: 1
   audioClipsToTalk:
   - {fileID: 8300000, guid: 7be0d8eb8e4455c4aaba2cd0bd330919, type: 3}
   - {fileID: 8300000, guid: f2d0da871bde3b2418d36da337cf20a4, type: 3}

@@ -21,6 +21,8 @@ public class GameWinScreenController : MonoBehaviour
 
     public void EnableGameWinScreen()
     {
+        AudioListener.volume = 0f;
+        Time.timeScale = 0f;
         gameObject.SetActive(true);
     }
 
@@ -30,11 +32,15 @@ public class GameWinScreenController : MonoBehaviour
 
     public void OnRestart()
     {
+        AudioListener.volume = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneRestart);
     }
 
     public void OnBackHub()
     {
+        AudioListener.volume = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Hub");
     }
 }

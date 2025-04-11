@@ -39,7 +39,7 @@ public class CartMovement : MonoBehaviour
 
     private void OnPathComplete()
     {
-        // gameWinScreenController.EnableGameWinScreen();
+        gameWinScreenController.EnableGameWinScreen();
     }
 
     private void OnDrawGizmos()

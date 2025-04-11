@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRadius: 0.06
-  damage: 2
+  damage: 3
   hasDamaged: 0
 --- !u!1 &809120021152063905
 GameObject:
@@ -1184,6 +1184,7 @@ MonoBehaviour:
   detectionRadius: 1
   weapon: {fileID: 797273832707738072}
   blinkDuration: 0.3
+  hitMatterial: {fileID: 2100000, guid: f9a80dad19240974094a8c4a20fb7c7b, type: 2}
   target: {fileID: 0}
 --- !u!65 &1319075634875689224
 BoxCollider:
@@ -1933,7 +1934,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f9a80dad19240974094a8c4a20fb7c7b, type: 2}
+  - {fileID: 2100000, guid: ee3dc0f074a5b194c8de57f0f27bbd5f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -18,7 +18,7 @@ public class GameOverCart : MonoBehaviour
     {
         if (healthSystem.health <= 0 && gameObject.CompareTag("Cart"))
         {
-            //gameOverScreenController.EnableGameOverScreen();
+            gameOverScreenController.EnableGameOverScreen();
         }
     }
 }
