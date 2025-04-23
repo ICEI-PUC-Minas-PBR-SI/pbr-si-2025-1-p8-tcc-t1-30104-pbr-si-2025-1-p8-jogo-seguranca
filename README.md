@@ -1,31 +1,37 @@
 # Informações sobre o Trabalho de Conclusão de Curso (TCC)
-`TÍTULO DO TCC`  
+`Jogos Digitais Como Ferramenta de Ensino sobre Ataques Cibernéticos`  
 
 Trabalho de Conclusão de Curso (TCC)
  
-`CURSO`: 
+`SISTEMA DE INFORMAÇÃO`: 
 
-`SEMESTRE:`
+`SEMESTRE: 8`
 
 `Objetivos de Desenvolvimento Sustentável (ODS) da ONU:` 
 > Incluir o(s) número(s) e a(s) descrição(ões) do(s) ODS da ONU que o TCC atende. 
+- ODS 4 – Educação de Qualidade
+  - Meta 4.4: Até 2030, aumentar substancialmente o número de jovens e adultos que tenham competências relevantes, incluindo competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo.
+- ODS 9 – Indústria, Inovação e Infraestrutura
+  - Meta 9.5: Reforçar a pesquisa científica, melhorar a capacidade tecnológica dos setores industriais e incentivar a inovação.
+- ODS 16 – Paz, Justiça e Instituições Eficazes
+  - Meta 16.10: Assegurar o acesso público à informação e proteger as liberdades fundamentais.
 
 ## Participantes
 
 Os membros da equipe são: 
-- Fulano da Silva
-- Ciclano Albuquerque
-
-> Incluir a lista dos membros da equipe com seus nomes completos.
+- Pedro Henrique dos Santos
+- Samuel Oliveira Guedes
 
 # Estrutura do Projeto
 
-1. [Contexto](./docs/1-Contexto.md)
-2. [Especificação do Projeto](./docs/2-Especificação.md)
-4. [Gerenciamento do Projeto](./docs/4-Gerenciamento-Projeto.md)
-5. [Implementação](./docs/5-Implementação.md)
-6. [Referências](./docs/6-Referências.md)
-7. [Apresentação do trabalho](./docs/apresentacao/README.md) 
+1. [Introdução](./docs/1-Introdução.md)
+2. [Trabalhos Relacionados](./docs/2-TrabalhosRelacionados.md)
+3. [Especificação](./docs/3-Especificação.md)
+4. [Metodologia](./docs/4-Metodologia.md)
+5. [Resultados](./docs/5-Resultado.md)
+6. [Conclusão](./docs/6-Conclusão.md)
+7. [Apresentação do trabalho](./docs/apresentacao/README.md)
+8. [Referências](./docs/7-Referências.md)
 
 
 
@@ -46,6 +52,10 @@ videos do trabalho.
 ## Pasta src
 
 Este diretório armazena o código fonte do projeto
+
+## Pasta GameBuild
+
+Este diretório armazena o jogo com o seu executável pronto para jogar
 
 ### Links Úteis:
 
