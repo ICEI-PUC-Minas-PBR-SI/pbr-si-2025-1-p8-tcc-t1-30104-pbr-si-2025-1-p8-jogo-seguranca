@@ -3,7 +3,7 @@
 
 Trabalho de Conclusão de Curso (TCC)
  
-`SISTEMA DE INFORMAÇÃO`: 
+`CURSO: SISTEMA DE INFORMAÇÃO`: 
 
 `SEMESTRE: 8`
 
