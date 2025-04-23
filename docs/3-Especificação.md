@@ -64,25 +64,25 @@ O **CyberWar** é um projeto que visa ensinar cibersegurança de forma interativ
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Man In The Middle</div>
-  <img src="images/diagramaMITM.jpg" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+  <img src="docs/imagem/diagramaMITM.jpg" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
 </div>
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Phishing</div>
-  <img src="images/diagramaPhishing.jpg" alt="Diagrama ilustrativo sobre o minigame Phishing">
+  <img src="docs/imagem/diagramaPhishing.jpg" alt="Diagrama ilustrativo sobre o minigame Phishing">
 </div>
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Phishing</div>
-  <img src="images/jogoPhishing.png" alt="Imagem ilustrativa do minigame Phishing">
+  <img src="docs/imagem/jogoPhishing.png" alt="Imagem ilustrativa do minigame Phishing">
 </div>
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Man In The Middle</div>
-  <img src="images/jogoMITM.png" alt="Imagem ilustrativa do minigame Man In The Middle">
+  <img src="docs/imagem/jogoMITM.png" alt="Imagem ilustrativa do minigame Man In The Middle">
 </div>
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;"> Hub com NPC que explica sobre conceitos de cibersegurança</div>
-  <img src="images/jogoHub.png" alt=" Hub com NPC que explica sobre conceitos de cibersegurança">
+  <img src="docs/imagem/jogoHub.png" alt=" Hub com NPC que explica sobre conceitos de cibersegurança">
 </div>
