@@ -8,7 +8,6 @@ Trabalho de Conclusão de Curso (TCC)
 `SEMESTRE: 8`
 
 `Objetivos de Desenvolvimento Sustentável (ODS) da ONU:` 
-> Incluir o(s) número(s) e a(s) descrição(ões) do(s) ODS da ONU que o TCC atende. 
 - ODS 4 – Educação de Qualidade
   - Meta 4.4: Até 2030, aumentar substancialmente o número de jovens e adultos que tenham competências relevantes, incluindo competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo.
 - ODS 9 – Indústria, Inovação e Infraestrutura
