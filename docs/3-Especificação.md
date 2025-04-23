@@ -63,26 +63,36 @@ Diversas sessões de testes foram realizadas para ajustar e equilibrar as mecân
 O **CyberWar** é um projeto que visa ensinar cibersegurança de forma interativa e educativa, utilizando minigames que abordam as ameaças mais comuns na internet. A experiência é projetada para ser divertida, educativa e fácil de entender, oferecendo aos jogadores as ferramentas para se protegerem no mundo digital.
 
 <div style="position: relative; display: inline-block;">
-  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Man In The Middle</div>
+  <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 32px; font-weight: bold;">
+    <strong>Diagrama ilustrativo sobre o minigame Man In The Middle</strong>
+  </div>
   <img src="imagem/diagramaMITM.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
 </div>
 
 <div style="position: relative; display: inline-block;">
-  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Phishing</div>
-  <img src="docs/imagem/diagramaPhishing.jpg" alt="Diagrama ilustrativo sobre o minigame Phishing">
+  <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 32px; font-weight: bold;">
+    <strong>Diagrama ilustrativo sobre o minigame Phishing</strong>
+  </div>
+  <img src="imagem/diagramaPhishing.jpg" alt="Diagrama ilustrativo sobre o minigame Phishing">
 </div>
 
 <div style="position: relative; display: inline-block;">
-  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Phishing</div>
-  <img src="docs/imagem/jogoPhishing.png" alt="Imagem ilustrativa do minigame Phishing">
+  <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 32px; font-weight: bold;">
+    <strong>Imagem ilustrativa do minigame Phishing</strong>
+  </div>
+  <img src="imagem/jogoPhishing.png" alt="Imagem ilustrativa do minigame Phishing">
 </div>
 
 <div style="position: relative; display: inline-block;">
-  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Man In The Middle</div>
-  <img src="docs/imagem/jogoMITM.png" alt="Imagem ilustrativa do minigame Man In The Middle">
+  <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 32px; font-weight: bold;">
+    <strong>Imagem ilustrativa do minigame Man In The Middle</strong>
+  </div>
+  <img src="imagem/jogoMITM.png" alt="Imagem ilustrativa do minigame Man In The Middle">
 </div>
 
 <div style="position: relative; display: inline-block;">
-  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;"> Hub com NPC que explica sobre conceitos de cibersegurança</div>
-  <img src="docs/imagem/jogoHub.png" alt=" Hub com NPC que explica sobre conceitos de cibersegurança">
+  <div style="position: absolute; top: 20px; left: 20px; color: white; font-size: 32px; font-weight: bold;">
+    <strong>Hub com NPC que explica sobre conceitos de cibersegurança</strong>
+  </div>
+  <img src="imagem/jogoHub.png" alt="Hub com NPC que explica sobre conceitos de cibersegurança">
 </div>
