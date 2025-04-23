@@ -2,82 +2,87 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-TrabalhosRelacionados.md"> Trabalhos Relacionados</a></span>
 
-> Escrever um parágrafo inicial, apresentando uma visão geral do que é abordado nesta parte do documento. Enumerar técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+# Desenvolvimento do CyberWar: Jogo de Cibersegurança Interativo
 
-## Título que especifica o TCC
+O desenvolvimento do **CyberWar** surgiu da necessidade de ensinar cibersegurança de forma acessível e envolvente. Para isso, foi criada uma experiência interativa que permite aos jogadores aprenderem na prática como proteger informações digitais.
 
-> Escrever o texto que epecifica (explica, desenvolve) o TCC.
+## Metodologia de Desenvolvimento
 
-## Personas
+O projeto foi guiado pela metodologia **Scrum**, escolhida por sua capacidade de organizar o fluxo de trabalho de forma ágil e interativa. As atividades foram divididas em **Sprints**, o que possibilitou acompanhar o progresso em ciclos curtos e facilitou a adaptação contínua às necessidades do projeto. Esse modelo colaborativo integrou diferentes áreas, como design, programação, narrativa e pesquisa, promovendo uma visão clara e integrada de todas as etapas do desenvolvimento.
 
-> Exemplo:
-> Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
+## História do Jogo
 
+O jogo se passa na **Guarda Digital de Segurança**, uma agência responsável por defender sistemas contra ameaças cibernéticas. O jogador assume o papel de um novato recém-contratado, que precisa aprender a lidar com ataques virtuais e impedir que criminosos comprometam dados sensíveis.
 
-## Histórias de Usuários
+### NPCs e Ambientação
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+Para tornar a jornada mais dinâmica, foram criados **NPCs** (Personagens Não Jogáveis) que ajudam a contar a história, fornecendo orientações e contextualizando os desafios de maneira lúdica. Além disso, foram selecionados **efeitos sonoros**, **animações**, **texturas** e **materiais** através do Mixamo e da Unity Asset Store, que permitem o uso desses recursos para jogos não lucrativos.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+## Pesquisa e Definição de Ameaças
 
-> Apresente aqui as histórias de usuário que são relevantes para o projeto. As Histórias de Usuário ajudam na compreensão e elicitação dos requisitos funcionais e não funcionais. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+A escolha dos ataques abordados no jogo foi fundamentada em pesquisas sobre as principais ameaças digitais da atualidade. Dados recentes apontam que **phishing** e **Man-In-The-Middle (MitM)** estão entre as técnicas mais utilizadas por hackers.
 
-## Requisitos
+- O phishing está presente em **79%** dos ataques de tomada de conta (ATO) e é considerado a maior ameaça cibernética para **30%** das pequenas empresas (SOCRadar, 2024).
+- Os ataques MitM representam **19%** dos ataques online bem-sucedidos e são responsáveis por **35%** das explorações de redes Wi-Fi inseguras (Security Escape, 2024).
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Esses dados evidenciam a importância de ensinar os usuários a identificar e mitigar essas ameaças, baseando o desenvolvimento dos minigames nessas informações.
 
-### Requisitos Funcionais
+## Minigames
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### Minigame de Man-In-The-Middle
 
+Neste minigame, o jogador deve proteger o **Carro-Pacote**, que transporta informações sigilosas, contra o **Interceptador Fatal**, um inimigo que tenta roubar os dados no caminho. O jogador conta com dois recursos para impedir o ataque:
+- **Espada** (representando a criptografia), que bloqueia o inimigo.
+- **Firewall temporário**, que torna o carro invulnerável por um curto período.
 
-### Requisitos não Funcionais
+O desafio é usar esses recursos estrategicamente para proteger as informações, simulando na prática como as medidas de proteção funcionam na segurança digital.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+### Minigame de Phishing
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+O jogador deve analisar e-mails suspeitos recebidos por NPCs e identificar sinais de fraude. Para isso, ele precisa verificar quatro aspectos fundamentais:
+1. Se o remetente é confiável.
+2. Se há erros de português.
+3. Se o e-mail contém links suspeitos.
+4. Se usa táticas de pressão psicológica.
 
-## Restrições
+Caso o jogador identifique corretamente um e-mail falso, ele acumula pontos e reforça seu aprendizado sobre como evitar esse tipo de golpe no mundo real.
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+## Tecnologias Utilizadas
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+- **Unity**: Escolhida como motor gráfico devido à sua flexibilidade, compatibilidade com múltiplas plataformas e alto desempenho.
+- **C#**: Linguagem de programação utilizada para criar simulações realistas dos ataques cibernéticos e implementar as mecânicas do jogo.
 
+## Desenvolvimento e Testes
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+O jogo foi desenvolvido em 3D com uma câmera isométrica para oferecer uma experiência imersiva. Foram criados cenários detalhados, animações para os NPCs e efeitos sonoros que aumentam a sensação de realismo. Cada elemento foi pensado para tornar o aprendizado mais fluido e acessível.
+
+Diversas sessões de testes foram realizadas para ajustar e equilibrar as mecânicas do jogo, assegurando uma experiência justa, acessível e divertida para todos os jogadores.
+
+## Conclusão
+
+O **CyberWar** é um projeto que visa ensinar cibersegurança de forma interativa e educativa, utilizando minigames que abordam as ameaças mais comuns na internet. A experiência é projetada para ser divertida, educativa e fácil de entender, oferecendo aos jogadores as ferramentas para se protegerem no mundo digital.
+
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Man In The Middle</div>
+  <img src="images/diagramaMITM.jpg" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
+
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Phishing</div>
+  <img src="images/diagramaPhishing.jpg" alt="Diagrama ilustrativo sobre o minigame Phishing">
+</div>
+
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Phishing</div>
+  <img src="images/jogoPhishing.png" alt="Imagem ilustrativa do minigame Phishing">
+</div>
+
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Imagem ilustrativa do minigame Man In The Middle</div>
+  <img src="images/jogoMITM.png" alt="Imagem ilustrativa do minigame Man In The Middle">
+</div>
+
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;"> Hub com NPC que explica sobre conceitos de cibersegurança</div>
+  <img src="images/jogoHub.png" alt=" Hub com NPC que explica sobre conceitos de cibersegurança">
+</div>
