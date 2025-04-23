@@ -64,7 +64,7 @@ O **CyberWar** é um projeto que visa ensinar cibersegurança de forma interativ
 
 <div style="position: relative; display: inline-block;">
   <div style="position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; font-weight: bold;">Diagrama ilustrativo sobre o minigame Man In The Middle</div>
-  <img src="docs/imagem/diagramaMITM.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+  <img src="imagem/diagramaMITM.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
 </div>
 
 <div style="position: relative; display: inline-block;">
