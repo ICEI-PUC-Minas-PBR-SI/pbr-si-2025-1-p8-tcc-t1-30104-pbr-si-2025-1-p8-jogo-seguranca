@@ -9,7 +9,12 @@ Nesta seção serão apresentados e analisados os dados coletados por meio da ap
 A presente pesquisa teve como a maior parte dos participantes formada por pessoas sem conhecimento sobre segurança da informação (14), seguida por estudantes da área de TI (10), funcionários de empresas (7) e, em menor número, empresários (2) (Figura 06). Essa distribuição indica que o CyberWar conseguiu alcançar um público diversificado, com predominância de indivíduos sem formação prévia na área, mas também incluindo profissionais e gestores. Esse perfil reforça a capacidade dos jogos digitais de adaptar a linguagem técnica a diferentes níveis de familiaridade, promovendo conscientização ampla e contribuindo para a formação de uma cultura de segurança mais acessível a todos os segmentos.
 
 Figura 06 - Gráfico de segmentos dos participantes
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de segmentos dos participantes</strong>
+  </div>
+  <img src="imagem/graficoSegmentos.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Faixa Etária dos Participantes
@@ -17,7 +22,12 @@ Fonte: elaborada pelos autores
 O trabalho coletou a distribuição da faixa etária dos participantes da pesquisa (Figura 07). Observa-se que a maioria dos respondentes (66,7%) está na faixa de 18 a 24 anos, seguida por 15,2% entre 45 e 54 anos e 9,1% entre 25 e 42 anos. As demais faixas etárias tiveram participação irrelevante ou ausente. Embora a predominância seja de jovens adultos, a presença de indivíduos acima de 45 anos sugere que o interesse pelo tema e a usabilidade do jogo não se restringiram ao público mais jovem. Essa diversidade etária pode indicar que a proposta do CyberWar é acessível a diferentes perfis. Estudos anteriores apontam que jogos educativos podem ser adaptados a públicos variados (CRIOLO-C et al., 2024; TOLEDO et al., 2022), o que reforça a possibilidade de aplicação inclusiva de jogos voltados à segurança digital.
 
 Figura 07 - Gráfico de faixa etária dos participantes
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de faixa etária dos participantes</strong>
+  </div>
+  <img src="imagem/graficoFaixaEtaria.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Familiaridade com o Tema Cibersegurança (Pré-Jogo)
@@ -25,7 +35,12 @@ Fonte: elaborada pelos autores
 A pesquisa demonstrou a autopercepção dos participantes sobre seu conhecimento prévio em cibersegurança (Figura 08). A maioria relatou ter baixa (27,3%), média (21,2%) ou nenhuma (12,1%) familiaridade com o tema. Em contrapartida, 27,3% declararam ter alto conhecimento e 12,1% se consideram especialistas. Embora o número de participantes com familiaridade avançada seja significativo, ainda há uma parcela expressiva (mais de 60%) com conhecimentos limitados, o que evidencia a importância de estratégias educativas acessíveis. Jogos digitais com estrutura bem definida podem ser eficazes mesmo entre iniciantes, desde que contextualizam os conteúdos de forma prática (PIKI et al, 2023). O CyberWar foi estruturado nesse sentido, permitindo o acesso inicial a conteúdos técnicos sem exigir conhecimento prévio.
 
 Figura 08 - Gráfico de familiaridade dos participantes com o tema cibersegurança
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de familiaridade dos participantes com o tema cibersegurança</strong>
+  </div>
+  <img src="imagem/graficoFamiliaridade.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Avaliação do Conhecimento Após o Jogo
@@ -33,7 +48,12 @@ Fonte: elaborada pelos autores
 Os dados coletados mostraram que 33,3% dos participantes se sentiram muito mais preparados para evitar ataques após jogar o CyberWar, enquanto 27,3% relataram melhora significativa e outros 27,3% apontaram melhora moderada (Figura 09). Apenas 9,1% indicaram leve melhora e 3% afirmaram não ter adquirido conhecimento adicional. Esses resultados indicam um avanço na percepção pessoal de preparo para lidar com ameaças digitais, o que sugere que o uso de jogos digitais pode representar uma alternativa viável às abordagens tradicionais. A combinação de interatividade e desafio em jogos pode favorecer a aprendizagem com menor sobrecarga cognitiva (CRIOLLO-C et al, 2024), o que o CyberWar conseguiu alcançar, como mostrado no gráfico.
 
 Figura 09 - Gráfico de avaliação do conhecimento dos participantes
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de avaliação do conhecimento dos participantes</strong>
+  </div>
+  <img src="imagem/avaliacaoConhecimento.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Entendimento sobre Engenharia Social
@@ -41,7 +61,12 @@ Fonte: elaborada pelos autores
 O jogo desenvolvido demonstrou que todos os participantes afirmaram compreender como ocorrem a engenharia social e ataques cibernéticos após jogarem (Figura 10). Esse dado sugere que a abordagem prática adotada no CyberWar contribuiu para facilitar a assimilação de um tema considerado abstrato. O uso de simulações pode ter sido determinante para esse resultado, o que está alinhado com conclusões de outros estudos sobre a eficácia de atividades lúdicas na compreensão de ameaças cibernéticas (PIKI et al., 2023).
 
 Figura 10 - Gráfico de entendimento dos participantes sobre engenharia social
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de entendimento dos participantes sobre engenharia social</strong>
+  </div>
+  <img src="imagem/entenderAtaquesCiberneticos.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Confiança para Identificar Tentativas de Phishing
@@ -49,7 +74,12 @@ Fonte: elaborada pelos autores
 Os dados coletados demonstraram que 100% dos participantes declararam sentir-se confiantes para identificar tentativas de phishing após o jogo (Figura 11). A simulação de interações com emails suspeitos pode ter contribuído para esse resultado, permitindo o reconhecimento de padrões de ameaça em um ambiente controlado. Estudo similar identificou efeitos positivos na autoconfiança de usuários expostos a jogos com elementos de segurança digital (CRIOLLO-C et al., 2024).
 
 Figura 11 - Gráfico de confiança dos participantes para identificar tentativas de phishing
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de confiança dos participantes para identificar tentativas de phishing</strong>
+  </div>
+  <img src="imagem/confiancaoEmIdentificar.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Interesse em Aprender Mais sobre Cibersegurança
@@ -57,7 +87,12 @@ Fonte: elaborada pelos autores
 Após o uso do jogo, 90,9% dos participantes demonstraram interesse em continuar aprendendo sobre cibersegurança (Figura 12). Esse dado sugere que o CyberWar também desempenhou um papel motivacional, incentivando o engajamento futuro com o tema. Outros estudos também demonstraram que a estrutura narrativa e os desafios progressivos de jogos educativos podem estimular o aprendizado autônomo (PIKI et al, 2023).
 
 Figura 12 - Gráfico de interesse dos participantes em cibersegurança após o uso do jogo
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de confiança dos participantes para identificar tentativas de phishing</strong>
+  </div>
+  <img src="imagem/empolgadoEmConhecer.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Desempenho Geral (Pré e Pós-Jogo)
@@ -78,7 +113,12 @@ A pesquisa realizada demonstrou um aumento no número de acertos nas questões d
 Fonte: elaborada pelos autores
 
 Figura 13 - Gráfico de desempenho geral dos participantes após o uso do jogo
-
+<div style="position: relative; display: inline-block;">
+  <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white; font-size: 32px; font-weight: bold;">
+    <strong>Gráfico de confiança dos participantes para identificar tentativas de phishing</strong>
+  </div>
+  <img src="imagem/graficoDesempenhoQuestoes.png" alt="Diagrama ilustrativo sobre o minigame Man In The Middle">
+</div>
 Fonte: elaborada pelos autores
 
 ## Comparação das Questões Objetivas
