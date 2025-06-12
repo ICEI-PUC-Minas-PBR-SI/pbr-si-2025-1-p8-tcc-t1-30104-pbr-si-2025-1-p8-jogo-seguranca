@@ -98,3 +98,17 @@ A pesquisa apresentou percentuais de acerto em seis questões antes e depois da 
 | **Média**     | **78,28%**         | **93,93%**         | **+15,65%**|
 
 Fonte: elaborada pelos autores
+
+
+### Comparação dos Resultados do CyberWar com Experiências Pedagógicas Anteriores em Jogos Digitais de Cibersegurança
+
+Os resultados alcançados com o jogo **CyberWar** demonstraram avanços significativos em relação a experiências pedagógicas anteriores com jogos digitais voltados ao ensino de cibersegurança, como *CyberLearn2D* (PIKI et al., 2023), *CiberSecApp* (CRIOLO-C et al., 2024) e *NetDefense* (TOLEDO et al., 2022). Enquanto esses projetos evidenciaram o potencial da gamificação para introduzir conceitos fundamentais e despertar o interesse dos usuários, o **CyberWar** ampliou essa visão ao apresentar resultados tanto cognitivos quanto comportamentais, consolidando uma nova perspectiva sobre o uso de jogos como recurso educacional em segurança digital.
+
+No caso do *CiberSecApp*, apesar de uma melhora média de 14,47% no desempenho entre pré e pós-teste, o crescimento ficou restrito à assimilação de conceitos básicos e avaliação da usabilidade, sem aprofundar simulações de ameaças reais ou promover mudanças comportamentais duradouras. O *NetDefense*, focado em aspectos técnicos de redes, teve melhorias percebidas por professores, porém sem dados empíricos sobre retenção ou aplicação prática. Já o *CyberLearn2D* adotou tarefas isoladas e quizzes, mas sem fornecer dados quantitativos sobre os impactos da aprendizagem, limitando sua avaliação a reflexões pedagógicas.
+
+Por sua vez, o **CyberWar** articula uma narrativa envolvente, minijogos interativos e avaliação sistemática de resultados, com avanço médio de 15,65% nos acertos gerais e até 21,2% nas questões relacionadas a ataques sociais, como phishing e engenharia social. Mais relevante foi o efeito comportamental: 100% dos participantes passaram a se considerar aptos a identificar ataques de phishing e compreender o conceito de engenharia social, um resultado não alcançado pelos trabalhos anteriores. Isso indica que o jogo formou competências práticas e promoveu autoconfiança digital.
+
+Além disso, o **CyberWar** despertou interesse contínuo em segurança da informação, com 90,9% dos participantes dispostos a continuar aprendendo, demonstrando engajamento duradouro — contraste com projetos anteriores focados em introdução pontual de conteúdo. A imersão narrativa e o realismo das simulações permitiram vivenciar ataques em tempo real, transformando a gamificação em uma ferramenta de experiência prática, onde o conhecimento é internalizado pela ação e não só pela exposição teórica.
+
+Dessa forma, ao apresentar resultados mensuráveis em aprendizado, mudança comportamental e engajamento autônomo, o **CyberWar** confirma o potencial dos jogos digitais no ensino de cibersegurança e expande o escopo da aprendizagem baseada em jogos. O jogo demonstra que é possível ensinar conteúdos complexos, promover atitudes conscientes e preparar usuários de maneira eficaz para os desafios do mundo digital, representando um avanço qualitativo em relação às abordagens tradicionais e estabelecendo nova referência para o uso de jogos digitais na promoção da cidadania cibernética.
+
