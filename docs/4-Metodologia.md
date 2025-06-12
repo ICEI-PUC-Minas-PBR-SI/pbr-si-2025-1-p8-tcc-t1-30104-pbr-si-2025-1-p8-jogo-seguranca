@@ -6,47 +6,67 @@
 
 Com o intuito de analisar o uso de jogos digitais no ensino de cibersegurança, esta pesquisa foi estruturada com uma abordagem metodológica capaz de abranger tanto percepções dos participantes quanto dados objetivos sobre a efetividade da proposta. A seguir, apresenta-se a classificação da pesquisa e as etapas que guiaram sua execução.
 
-## Classificação da Pesquisa
+## Classificação e Metodologia
 
-A presente pesquisa possui caráter **exploratório** e natureza **aplicada**, considerando que o uso de jogos digitais como ferramenta de ensino em cibersegurança ainda é um campo em desenvolvimento, com grande potencial para contribuir na conscientização sobre ameaças digitais. 
+A presente pesquisa possui caráter exploratório e natureza aplicada, uma vez que o uso de jogos digitais como ferramenta de ensino em cibersegurança ainda representa um campo em desenvolvimento, com grande potencial para contribuir na conscientização sobre ameaças digitais.
 
-Buscou-se compreender como essa abordagem pode ser implementada de maneira eficaz, alinhando-se a estudos anteriores que destacam a relevância da **gamificação na educação digital** (Criollo-C et al., 2024; Toledo, Louis e Sengupta, 2024; Piki et al., 2023).
+Para orientar o desenvolvimento do projeto, foi adotada a metodologia ágil **Scrum**. O uso do Scrum permitiu dividir o projeto em sprints bem definidas, com entregas incrementais e revisões constantes, facilitando a adaptação às necessidades emergentes e o aprimoramento contínuo do jogo com base no feedback dos usuários. Essa abordagem favoreceu a integração entre as etapas de desenvolvimento e pesquisa, garantindo maior alinhamento entre os objetivos educacionais e as funcionalidades do jogo.
 
-Para isso, adotou-se uma **abordagem mista**, que combinou métodos **qualitativos** e **quantitativos**:
-- A **análise qualitativa** envolveu a coleta de feedbacks sobre a experiência com o jogo.
-- A **análise quantitativa** mensurou o impacto da interação por meio de questionários aplicados antes e depois do uso da ferramenta.
-
-Ambos os conjuntos de dados foram obtidos via **Google Forms** e organizados no **Excel**, permitindo a criação de gráficos e a análise dos resultados. Essa metodologia se mostrou adequada para avaliar a eficácia do aprendizado baseado em jogos, conforme evidenciado por pesquisas anteriores (Criollo-C et al., 2024).
+A pesquisa adotou também uma **abordagem mista**, combinando métodos qualitativos e quantitativos.
 
 ## Etapas da Pesquisa
 
-A realização desta pesquisa seguiu uma série de etapas organizadas para garantir a consistência e a profundidade da análise.
+A realização desta pesquisa seguiu um conjunto de etapas planejadas, com o objetivo de garantir a consistência metodológica e a profundidade na análise dos resultados.
 
-1. **Seleção da amostra:**  
-   A amostra foi selecionada de forma **intencional**, composta por participantes com diferentes níveis de familiaridade com o tema, convidados por meio de redes sociais, grupos acadêmicos e contatos diretos. O critério de seleção considerou principalmente o interesse em participar da experiência com o jogo.
+O processo teve início com a identificação das principais questões sobre cibersegurança que o jogo busca abordar por meio de sua narrativa e mecânicas de gameplay. Com base nessas questões, foram elaborados dois questionários complementares:
 
-2. **Aplicação dos questionários:**  
-   Foram elaborados **dois questionários**, um aplicado antes e outro após a interação com o jogo.
-   - O **primeiro** buscou identificar o conhecimento prévio dos participantes sobre cibersegurança e suas expectativas.
-   - O **segundo** teve como objetivo avaliar a experiência de uso, os conhecimentos adquiridos, o engajamento gerado e a percepção dos participantes após a atividade.
+1. **Questionário 1 – Diagnóstico Inicial**  
+   Este instrumento teve como propósito mapear o conhecimento prévio dos participantes e suas experiências anteriores com métodos de ensino voltados à cibersegurança. Incluiu perguntas relacionadas a:
+   - Conceitos de ataques cibernéticos
+   - Engenharia social
+   - Práticas de segurança digital
+   - Perfil dos respondentes (faixa etária, setor de trabalho, nível de conhecimento, participação prévia em atividades educativas)
 
-   Ambos os questionários foram aplicados via **Google Forms**, permitindo a participação remota e facilitando a organização das respostas.
+2. **Questionário 2 – Avaliação da Experiência com o Jogo**  
+   Voltado para investigar os conhecimentos adquiridos, o grau de engajamento e a percepção geral sobre a temática após a interação com o jogo. As questões conceituais do primeiro questionário foram reaplicadas para mensurar o ganho de conhecimento, com a adição de:
+   - Perguntas específicas sobre a experiência com o game
+   - Uma questão aberta para sugestões e críticas construtivas
 
-3. **Análise de dados:**  
-   Os dados obtidos foram exportados para **planilhas do Excel**, onde foram tratados e organizados para a construção de gráficos e para uma análise mais precisa dos resultados.
+## Amostra e Aplicação
 
-   - A **análise qualitativa** concentrou-se nas respostas abertas dos participantes, destacando sugestões, críticas e percepções sobre a experiência gamificada.
-   - A **análise quantitativa** permitiu mensurar o impacto do jogo na ampliação do conhecimento e no interesse pela temática da cibersegurança, com base na comparação entre os questionários pré e pós-interação.
+A amostra foi composta por **33 participantes**, selecionados de forma intencional, com diferentes níveis de familiaridade com o tema e pertencentes a variadas faixas etárias. Os convites foram realizados via redes sociais, grupos acadêmicos e contatos diretos, tendo como critério principal o interesse voluntário, independentemente da idade.
 
-4. **Interpretação dos resultados:**  
-   A interpretação dos dados foi realizada com base na **literatura da área**, permitindo confirmar a relevância da abordagem e sugerir possíveis melhorias para aplicações futuras.
+O jogo foi disponibilizado na plataforma **Unity Play**, em formato **Unity WebGL**, permitindo que fosse executado diretamente no navegador, sem necessidade de instalação. Os links de acesso ao jogo e aos questionários foram enviados individualmente, assegurando organização e controle das respostas.
 
+## Análise de Dados
 
-## Ferramentas
+Após a coleta, os dados foram sistematizados em planilhas do Excel, possibilitando a geração de gráficos e contribuindo para uma análise minuciosa dos resultados obtidos.
 
-> Liste quais ferramentas foram empregadas no desenvolvimento do TCC, justificando a escolha de cada uma delas. as
+A investigação seguiu duas frentes:
 
-## Cronograma
+- **Análise Qualitativa**  
+  Concentrou-se nas respostas abertas do segundo questionário, destacando percepções, críticas e sugestões, fornecendo subsídios importantes para o aprimoramento do jogo.
 
-> Apresente o cronograma de desenvolvimento do TCC.
+- **Análise Quantitativa**  
+  Realizada por meio da comparação entre os questionários aplicados antes e depois da interação com o game, permitindo mensurar o impacto da ferramenta no aumento do conhecimento e no interesse pela cibersegurança.
+
+A interpretação final dos resultados foi fundamentada na literatura especializada, confirmando a relevância da abordagem adotada e apontando caminhos promissores para melhorias e futuras aplicações do projeto.
+
+## Tecnologias Utilizadas
+
+Para tornar possível o desenvolvimento do **CyberWar**, foram adotadas tecnologias e recursos que contribuíram diretamente para a criação da experiência:
+
+- **Unity**  
+  Motor gráfico amplamente utilizado, escolhido por sua flexibilidade, desempenho e compatibilidade com diversas plataformas, incluindo exportação para WebGL.
+
+- **C# (MICROSOFT, 2025)**  
+  Linguagem nativa da Unity, robusta e com vasto suporte da comunidade, usada na criação de funcionalidades como simulações interativas e mecânicas dinâmicas.
+
+- **Unity Asset Store**  
+  Utilizada para enriquecer a ambientação com modelos 3D, materiais, texturas e efeitos sonoros gratuitos ou acessíveis, permitidos para projetos não lucrativos.
+
+- **Mixamo**  
+  Plataforma empregada para importar animações realistas aplicadas a personagens não jogáveis. O uso gratuito para fins educacionais permitiu criar interações mais naturais entre os personagens e o jogador.
+
+A integração dessas ferramentas acelerou o desenvolvimento e garantiu qualidade visual e interatividade, aspectos fundamentais para engajar o jogador e facilitar a assimilação de conceitos complexos de cibersegurança.
 
