@@ -4,8 +4,6 @@
 
 # Referências
 
-# Referências
-
 ADOBE. Mixamo. Acesso em: 20 maio 2025.
 
 AFONSO, Lisa; RODRIGUES, Rui; REIS, Eduardo; MILLER, Kylee; CASTRO, Joana; PARENTE, Nuno; TEIXEIRA, Carina; FRAGA, Ana; TORRES, Sandra; Fammeal. A Gamified Mobile Application for Parents and Children to Help Healthcare Centers Treat Childhood Obesity. IEEE Explore, v. 12, ed. 4, n. 4 dez. 2020. Acesso em: 29 mar. 2024.
