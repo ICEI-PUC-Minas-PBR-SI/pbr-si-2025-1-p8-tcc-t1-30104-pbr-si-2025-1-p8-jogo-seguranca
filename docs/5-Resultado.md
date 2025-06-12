@@ -100,7 +100,7 @@ A pesquisa apresentou percentuais de acerto em seis questões antes e depois da 
 Fonte: elaborada pelos autores
 
 
-### Comparação dos Resultados do CyberWar com Experiências Pedagógicas Anteriores em Jogos Digitais de Cibersegurança
+### Discussão dos resultados
 
 Os resultados alcançados com o jogo **CyberWar** demonstraram avanços significativos em relação a experiências pedagógicas anteriores com jogos digitais voltados ao ensino de cibersegurança, como *CyberLearn2D* (PIKI et al., 2023), *CiberSecApp* (CRIOLO-C et al., 2024) e *NetDefense* (TOLEDO et al., 2022). Enquanto esses projetos evidenciaram o potencial da gamificação para introduzir conceitos fundamentais e despertar o interesse dos usuários, o **CyberWar** ampliou essa visão ao apresentar resultados tanto cognitivos quanto comportamentais, consolidando uma nova perspectiva sobre o uso de jogos como recurso educacional em segurança digital.
 
