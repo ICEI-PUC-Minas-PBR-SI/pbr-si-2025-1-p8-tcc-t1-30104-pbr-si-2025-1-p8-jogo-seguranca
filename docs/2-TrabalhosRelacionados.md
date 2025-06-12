@@ -1,6 +1,7 @@
-<span style="color:red">**Pré-requisitos:** [Introdução](1-Introdução.md)</span>
+# Trabalhos Relacionados
 
-## Trabalhos Relacionados
+<span style="color:red">Pré-requisitos: <a href="Introdução"> Introdução</a></span>
+
 
 Com base no contexto apresentado, há diversas iniciativas que se baseiam em criar jogos que, de forma lúdica, ensinam as pessoas e conseguem reter a atenção das mesmas. Nos próximos parágrafos serão apresentados alguns trabalhos, que assim como este, visam trazer conhecimento de uma forma diferente das utilizadas comumente.
 
